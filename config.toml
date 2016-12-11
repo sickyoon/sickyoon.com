@@ -1,6 +1,41 @@
 baseurl = "https://sickyoon.github.io/"
 title = "Steve's Technical Blog"
 languageCode = "en-us"
-theme = "hugo_theme_robust"
-[Params]
-  Author = "Sick Yoon"
+theme = "hugo-redlounge"
+
+[params]
+  sidebartitle = "Sick Yoon"
+  sidebartagline = "gopher"
+  sidebarphoto = "http://www.unixstickers.com/image/cache/data/stickers/golang/golang.sh-600x600.png"
+  author = "Sick Yoon"
+  description = "Steve's Technical Blog"
+
+[[menu.main]]
+  name = "Hello"
+  url = "/post"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects"
+
+[[menu.main]]
+  name = "Books"
+  url = "/books"
+
+[[menu.social]]
+  pre = "<i class='fa fa-github'></i>"
+  url = "https://www.github.com/sickyoon"
+  identifier = "github"
+
+[[menu.social]]
+  pre = "<i class='fa fa-at'></i>"
+  url = "mailto:sick.yoon@gmail.com"
+  identifier = "email"
+
+[[menu.footer]]
+  name = "About"
+  url = "/about"

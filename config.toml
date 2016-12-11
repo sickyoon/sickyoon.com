@@ -1,0 +1,6 @@
+baseurl = "https://sickyoon.github.io/"
+title = "Steve's Technical Blog"
+languageCode = "en-us"
+theme = "hugo_theme_robust"
+[Params]
+  Author = "Sick Yoon"

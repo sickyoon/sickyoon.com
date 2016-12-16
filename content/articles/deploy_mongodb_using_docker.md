@@ -1,8 +1,6 @@
 +++
 title = "Deploy MongoDB using Docker"
-draft = true
 date = "2016-12-11T23:27:09+09:00"
-
 +++
 
 # Test Environment

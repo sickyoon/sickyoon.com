@@ -1,9 +1,0 @@
-[submodule "themes/hugo-orbit-theme"]
-	path = themes/hugo-orbit-theme
-	url = https://github.com/aerohub/hugo-orbit-theme.git
-[submodule "themes/hugo-redlounge"]
-	path = themes/hugo-redlounge
-	url = https://github.com/tmaiaroto/hugo-redlounge.git
-[submodule "themes/hyde"]
-	path = themes/hyde
-	url = https://github.com/spf13/hyde.git

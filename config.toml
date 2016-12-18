@@ -1,10 +1,33 @@
-baseurl = "https://sickyoon.github.io/"
-title = "Sick Yoon"
+baseurl = "sickyoon.com/"
+title = "sickyoon.com"
+copyright = "(c) 2016 Sick Yoon."
 languageCode = "en-us"
-theme = "gobooks-theme"
+metaDataFormat = "toml"
+theme = "hyde-s"
+paginate = 10
+paginatePath = "page"
+
+[author]
+  name = "Sick Yoon"
+  email = "sick.yoon@gmail.com"
 
 [params]
-  avatar = "https://avatars0.githubusercontent.com/u/24367477"
-  description = "gopher & python enthusiast"
-  copyright = "Sick Yoon"
+  brand = "sickyoon.com"
+  topline = "gopher & python enthusiast"
+  sidebar = "left"
+  home = "Posts"
+  highlight = "default"
+  github = "sickyoon"
+  linkedin = ""
+  rss = true
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  hrefTargetBlank = true
+  latexDashes = true
+  plainIdAnchors = true
+  extensions = []
+  extensionmask = []
+
 

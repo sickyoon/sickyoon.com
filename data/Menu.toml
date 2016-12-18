@@ -1,0 +1,14 @@
+
+[projects]
+  Name = "Projects"
+  URL = "/projects"
+
+[resources]
+  Name = "Resources"
+  URL = "/resources"
+
+[whoami]
+  Name = "Who am I?"
+  URL = "/about"
+
+

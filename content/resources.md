@@ -14,6 +14,10 @@ Articles that I find interesting ...
 
 * [arp-sk](http://sid.rstack.org/arp-sk/)
 
+## Business
+
+* [Indie Hacker](https://www.indiehackers.com/businesses)
+
 ## Companies/Services
 
 * [clarifai](https://clarifai.com) - image recognition api
@@ -26,3 +30,7 @@ Articles that I find interesting ...
 
 * [Rasp3 pentest box](http://imgur.com/a/4aAPS)
 
+## Front-end
+
+* [Bootswatch](http://bootswatch.com/)
+* [Glyphsearch](http://glyphsearch.com/)

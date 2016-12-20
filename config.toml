@@ -1,9 +1,10 @@
 baseurl = "/"
 title = "Sick Yoon"
-copyright = "(c) 2016 Sick Yoon."
-languageCode = "en-us"
 metaDataFormat = "toml"
-theme = "hugo-redlounge"
+theme = "hugosy"
+languageCode = "en_us"
+description = "gopher & <br> software engineer"
+copyright = "(c) 2016 Sick Yoon."
 
 [author]
   name = "Sick Yoon"
@@ -15,19 +16,20 @@ theme = "hugo-redlounge"
   sidebarphoto = "https://avatars0.githubusercontent.com/u/24367477?v=3&s=460"
 
 [[menu.main]]
-  name = "@ about"
+  name = "about"
   identifier = "about"
+  pre = "<i class='fa fa-fw fa-info'></i>"
   url = "/about/"
   weight = 1
 
 [[menu.main]]
-  name = "@ projects"
+  name = "projects"
   identifier = "projects"
   url = "/projects/"
   weight = 2
 
 [[menu.main]]
-  name = "@ resources"
+  name = "resources"
   identifier = "resources"
   url = "/resources/"
   weight = 3

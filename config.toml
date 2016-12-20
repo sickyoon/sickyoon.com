@@ -1,33 +1,34 @@
-baseurl = "sickyoon.com/"
-title = "sickyoon.com"
+baseurl = "/"
+title = "Sick Yoon"
 copyright = "(c) 2016 Sick Yoon."
 languageCode = "en-us"
 metaDataFormat = "toml"
-theme = "hyde-s"
-paginate = 10
-paginatePath = "page"
+theme = "hugo-redlounge"
 
 [author]
   name = "Sick Yoon"
   email = "sick.yoon@gmail.com"
 
 [params]
-  brand = "sickyoon.com"
-  topline = "gopher & python enthusiast"
-  sidebar = "left"
-  home = "Posts"
-  highlight = "default"
-  github = "sickyoon"
-  linkedin = ""
-  rss = true
+  sidebartitle = "Sick Yoon"
+  sidebartagline = "gopher & software engineer"
+  sidebarphoto = "https://avatars0.githubusercontent.com/u/24367477?v=3&s=460"
 
-[blackfriday]
-  angledQuotes = true
-  fractions = false
-  hrefTargetBlank = true
-  latexDashes = true
-  plainIdAnchors = true
-  extensions = []
-  extensionmask = []
+[[menu.main]]
+  name = "@ about"
+  identifier = "about"
+  url = "/about/"
+  weight = 1
 
+[[menu.main]]
+  name = "@ projects"
+  identifier = "projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  name = "@ resources"
+  identifier = "resources"
+  url = "/resources/"
+  weight = 3
 

@@ -1,5 +1,6 @@
 +++
 title = "Projects"
+nodate = true
 +++
 
 <h3><a href="https://github.com/sickyoon"><i class="fa fa-fw fa-github"></i> github.com/sickyoon</a></h3>
